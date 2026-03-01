@@ -154,5 +154,3 @@ If you already have standardized `annotation` files and `.pt` features, you can 
 - Dataset size is 0: check naming consistency across `split_path`, `ann_path`, and `image_dir`.
 
 ---
-
-If needed, this README can be further extended with a paper-style section (method figure, experimental setup, and results tables).
