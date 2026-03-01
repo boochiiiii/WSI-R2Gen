@@ -146,11 +146,3 @@ Test mode loads:
 `ocr/pdf2text.py` converts PDF reports to text and pairs them with WSIs, which is useful for building the original dataset.  
 If you already have standardized `annotation` files and `.pt` features, you can skip this step.
 
-## 9. Troubleshooting
-
-- `RuntimeError: NCCL ...`: verify CUDA/NCCL environment and `--n_gpu` settings.
-- Model not found in test mode: make sure `model_best.pth` exists under `--checkpoint_dir`.
-- `pycocoevalcap` errors during evaluation: ensure it is correctly installed with all required dependencies.
-- Dataset size is 0: check naming consistency across `split_path`, `ann_path`, and `image_dir`.
-
----
